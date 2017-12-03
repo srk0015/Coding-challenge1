@@ -1,0 +1,142 @@
+Tests : 
+
+#Test 1
+
+This test is to verify that the area code has valid digits and is of length 3. I would have liked to include corner cases such as not to use "911" to extend this test case.
+Output of the test is as below:
+
+844
+valid area code
+770
+valid area code
+877
+valid area code
+510
+valid area code
+602
+valid area code
+714
+valid area code
+325
+valid area code
+242
+valid area code
+719
+valid area code
+961
+valid area code
+(42
+invalid area code
+
+
+
+#Test 2
+This is a simple test case to verify the area code is not null.
+
+844
+Area code is not empty
+770
+Area code is not empty
+877
+Area code is not empty
+510
+Area code is not empty
+602
+Area code is not empty
+714
+Area code is not empty
+325
+Area code is not empty
+242
+Area code is not empty
+719
+Area code is not empty
+961
+Area code is not empty
+(42
+Area code is not empty
+
+
+#Test 3
+
+This Test case is to verify that the Status of get response is 200.
+
+GET response successful for the url http://localhost:5000/interview/api/v1.0/results
+
+
+#Test 4
+
+Test to make sure the formatting of the phone number is uniform and valid.
+
+Test 4
+844-857-5628
+phone number is in correct format
+770-232-6548
+phone number is in correct format
+877-662-5128
+phone number is in correct format
+510-257-4110
+phone number is in correct format
+602-566-9762
+phone number is in correct format
+714-549-8179
+phone number is in correct format
+325-457-7075
+phone number is in correct format
+242-863-8658
+phone number is in correct format
+719-475-2667
+phone number is in correct format
+961-825-5572
+phone number is in correct format
+(426)-371-8225
+Please enter the phone number in ***-***-**** format
+
+
+
+#Test 5
+Test case to verify that the comment is in string format.
+
+Test 5
+("The company calling is loan me but they're just spoofing the number. I had them on me for the longest time. Get your credit fixed, its better than waiting for this stuff to come off. 408-753-0177 they don't always answer right away but they are really really good.kdxyiun2 6s,so,ltz,fz", True)
+comment is in string format
+
+
+('Scammer posing as breeder for puppies! Then the owner told me that was just the adoption fee and a ship to door fee as the puppy was in Maryland with her as her husband was having cancer surgery. They never answered my questions I asked about the size of the puppies parents. AND kept stressing DO...kdxyiun2 6s,so,ltz,fz', True)
+comment is in string format
+
+
+('A scamkdxyiun2 6s,so,ltz,fz', True)
+comment is in string format
+
+
+('Calls saying calling aboit a federal case and I hung upkdxyiun2 6s,so,ltz,fz', True)
+comment is in string format
+
+
+('Calls from this # keep coming into our office, yet when we answer, no one responds.kdxyiun2 6s,so,ltz,fz', True)
+comment is in string format
+
+
+('Zisafca me pamnad gekevfiz imag ozacupkej cu bagaer cev av mow jo duzpiffob. Tachi umpilrif nopiet giwe badzevkob puvup edwit asalu wapudke rabitso co fumtep so wuwup rojwa cij. Hegergaz ico wiz fafag og ahi aketeh tughuc cocweof re buzemez fucsec comaak.kdxyiun2 6s,so,ltz,fz', True)
+comment is in string format
+
+
+(u'Matuca sukmowiro to cihdamvet im do hocjimor na okbisen ukle ukuvu neven du. Het hesguveka puhegdi sen le suzetak tihev ez vojefi tuk la jic ded bu du ka gibe ulewohwe. Wacji vu pufwipe fu pulmo fo ohiuh bubniep ijiodufab ken aneteraw ef. Lucagdoj vuh ir hoove fa gudpew bu eji kedic owgel bir henhal bidroc feji ekapoek ablu. Nahoti zifuci zawubaci mocfikub kipukje defelana gi ihuza pu uk neslilca vibute. Was cun pas pihpe jigirwo maew ti uhpugap nuzecep erzigi tofoelo pibtu map de azazu azdi ba ri. Fiv udica upejo rimuwkih fasepdum igopigno ta fahdag birki cijcev ak upuus si omzavu dos. \U0001f61ekdxyiun2 6s,so,ltz,fz', False)
+The comment has undefined characters
+
+
+('Omga pap josil reflo pi nerfij igze sin ba raz ra vameg fu zuhbuh. Nivbow orto luiva arvavege dalzed gekide jafkete getahis kefilufi kol uhho ju hugi nasepud. Bot ohiim tad emvaz haivwoc lovu rucwuw cu midda sehbikti cimimfus ze niw ca inaawa acefubzam. Omace murib fah pihhoehi sipak nebnalmag muloom pano jolukanu duergu ogehi keh jud rerufas naafive ol. Adudakuj kabanke as kezejuru iszougo noc rasu gin jah ozi vuwesu zatomi kopi gep na umuuho. Ju ko rahme udeimkip dino egi gilgo urriz jef goju jef daj erjof hoaf nu viozcef toov faj.kdxyiun2 6s,so,ltz,fz', True)
+comment is in string format
+
+
+('Ibkoaj taze lu capakgin lutniwem fo vakvozus gowoore dovva siwol nuzjotlo fovuh alda zilvignen dovjo. Hij zug coh upuata lor dogijukoh ow cokor kabu luso totepha deifiab ezwagra jegubiju mev. Zera wif er te ubbagwe detihe awuokapef urelehin vawco otutac zemzepki kok oneopsi toaf osru gu lo ci. Tu hefkuhdo ca museb fiffok olvetgo ru zorfijdih pijtupe gec lorbej noar sogjuwem gowvaj huwtulal wuhdo najar. Nodmon hob ew owfegcol bavaf ug fikra sigdo mid lip rit bij zaceg gegmi vufbujol ege jocho.kdxyiun2 6s,so,ltz,fz', True)
+comment is in string format
+
+
+('Gok piblinvuc nide monbazne mizde nesbidaru fuagu adsaas towbu cuwra jiniivi widdogve mecinicun varegu beven danene ibozi pisutene. Bo mad zeloktav tuvne pugudozit ebi raw zu negambo be afaja zew aveev. Gi ikimiwka zetsibe egufen ditrovav gadecoj awzopeli wokvacuh hitmib ci wo cawwa. Puje polnetzu ke van hedvaceb vucah cofso demvatga feplo bed ektug pefocap kov awdizsom wiufho is wuspi luleza. Osifaktuv bomi jiuba uhwioro ru ed wagoh diconi wulbi zugo vepopuzu gug. Gojomba man cozzopjus dilabtig zemagbow burkun bo aju adgoel aphoew vec ratkuiv kanun lugajeduf dar low.kdxyiun2 6s,so,ltz,fz', True)
+comment is in string format
+
+
+('Sundickag ker vawveb pir pahi kuz votoz do upnebuz codca caullok jumi tezjohzu kewjar. Mafo ituvuw idi ce vidu va uto iwenerfat hol ipwopod joaszun cuwvovfi vu. Difu zemasih ewuaku attujuw hoija padni jiv todez fup jonozabe wip ca loafwi zurac ile donavkat ek. Rufuri si jujne fi jos wowsugne pu kapaef nodho penut komusup motisof gavze ruodoboj izna. No wiz sarmipap arojimu fumamiut furitvu gu akekazaj road bic po sanezsa kog mina ibjo lenku we. Pihwi zam webose oko wefcefdul bursiche wocoppip.kdxyiun2 6s,so,ltz,fz', True)
+comment is in string format
